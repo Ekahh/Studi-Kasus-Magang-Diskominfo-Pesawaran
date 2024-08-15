@@ -238,3 +238,81 @@ nav ul li a:hover {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   transition: background-color 0.3s ease;
 }
+
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 5%;
+  }
+
+  .logo-container {
+    margin-bottom: 10px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  nav ul li {
+    margin-left: 0;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+
+  .content h1 {
+    font-size: 50px;
+  }
+
+  .content h3 {
+    font-size: 30px;
+  }
+
+  .wrapper {
+    gap: 15px;
+  }
+
+  .wrapper .icon {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+  }
+
+  .wrapper .icon i {
+    font-size: 20px;
+  }
+
+  .wrapper .tooltip {
+    font-size: 12px;
+  }
+
+  .website-button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .content h1 {
+    font-size: 40px;
+  }
+
+  .content h3 {
+    font-size: 24px;
+  }
+
+  .wrapper {
+    gap: 10px;
+  }
+
+  .wrapper .icon {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+  }
+
+  .wrapper .icon i {
+    font-size: 18px;
+  }
+}
