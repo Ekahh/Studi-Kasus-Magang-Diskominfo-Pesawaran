@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portal tidak resmi Pemerintah Daerah Kabupaten Pesawaran</title>
-    <link rel="stylesheet" href="css\styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <link href="assets/temp/css/font-awesome.css" rel="stylesheet" />
 
     <script
@@ -15,32 +15,77 @@
 
   <body>
     <div class="hero">
-
-      <video autoplay loop muted plays-inline class="back-video">
-        <source src="images\0815.mp4" type="video/mp4">
+      <video autoplay loop muted playsinline class="back-video">
+        <source src="images/0815(1).mp4" type="video/mp4" />
       </video>
 
       <nav>
         <div class="logo-container">
           <img src="images/call-center.png" alt="Call Center" class="logo" />
-          <a href="" class="text-logo">Kontak Layanan</a>
+          <div class="dropdown">
+            <a href="#" class="text-logo dropbtn">Kontak Layanan</a>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#">Telephone 1</a>
+              <a href="#">Telephone 2</a>
+              <a href="#">Email</a>
+            </div>
+          </div>
         </div>
         <ul>
           <li>
-            <a href=""><i class="fa fa-facebook-square"></i> Facebook</a>
+            <a href="#"><i class="fa fa-facebook-square"></i> Facebook</a>
           </li>
           <li>
-            <a href=""><i class="fa fa-twitter"></i> Tweet</a>
+            <a href="#"><i class="fa fa-twitter"></i> Tweet</a>
           </li>
           <li>
-            <a href=""><i class="fa fa-instagram"></i> Instagram</a>
+            <a href="#"><i class="fa fa-instagram"></i> Instagram</a>
           </li>
         </ul>
       </nav>
       <div class="content">
         <h1>Portal Resmi</h1>
         <h3>Pemerintah Daerah Kabupaten Pesawaran.</h3>
-        <a href="https://www.pesawarankab.go.id/Home"><button type="submit" class="btn btn-custom btn-fill">Masuk ke Website</button>
+        <a href="https://www.pesawarankab.go.id/Home">
+          <br />
+          <center>
+            <div class="wrapper">
+              <div class="icon">
+                <div class="tooltip">LAYANAN PUBLIK</div>
+                <a href="https://onecenter.pesawarankab.go.id" target="_blank"
+                  ><span><i class="fa fa-city"></i></span
+                ></a>
+              </div>
+              <div class="icon">
+                <div class="tooltip">OPEN DATA</div>
+                <a href="#"
+                  ><span><i class="fa fa-newspaper"></i></span
+                ></a>
+              </div>
+              <div class="icon">
+                <div class="tooltip">PPID UTAMA</div>
+                <a href="https://ppid.pesawarankab.go.id" target="_blank"
+                  ><span><i class="fa fa-file"></i></span
+                ></a>
+              </div>
+              <div class="icon">
+                <div class="tooltip">TATA KELOLA PEMERINTAHAN</div>
+                <a href="#"
+                  ><span><i class="fa fa-calendar"></i></span
+                ></a>
+              </div>
+              <div class="icon">
+                <div class="tooltip">PARIWISATA</div>
+                <a href="https://pariwisata.pesawarankab.go.id" target="_blank"
+                  ><span><i class="fa fa-map-location"></i></span
+                ></a>
+              </div>
+            </div>
+          </center>
+          <a href="https://www.pesawarankab.go.id/Home" class="website-button"
+            >Masuk ke Website</a
+          >
+        </a>
       </div>
     </div>
     <script src="js\script.js"></script>
