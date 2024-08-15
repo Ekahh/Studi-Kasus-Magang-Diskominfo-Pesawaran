@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   window.addEventListener("click", function (e) {
-    if (!e.target.matches(".dropbtn")) {
+    if (!e.target.matches(".dropbtn") && !dropbtn.contains(e.target)) {
       if (dropdown.classList.contains("show")) {
         dropdown.classList.remove("show");
       }
